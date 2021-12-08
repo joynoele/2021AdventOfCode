@@ -1,0 +1,16 @@
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\bin\Debug\net5.0\SonarSweep.exe
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\bin\Debug\net5.0\SonarSweep.deps.json
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\bin\Debug\net5.0\SonarSweep.runtimeconfig.json
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\bin\Debug\net5.0\SonarSweep.runtimeconfig.dev.json
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\bin\Debug\net5.0\SonarSweep.dll
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\bin\Debug\net5.0\ref\SonarSweep.dll
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\bin\Debug\net5.0\SonarSweep.pdb
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\obj\Debug\net5.0\SonarSweep.csproj.AssemblyReference.cache
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\obj\Debug\net5.0\SonarSweep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\obj\Debug\net5.0\SonarSweep.AssemblyInfoInputs.cache
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\obj\Debug\net5.0\SonarSweep.AssemblyInfo.cs
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\obj\Debug\net5.0\SonarSweep.csproj.CoreCompileInputs.cache
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\obj\Debug\net5.0\SonarSweep.dll
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\obj\Debug\net5.0\ref\SonarSweep.dll
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\obj\Debug\net5.0\SonarSweep.pdb
+C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\obj\Debug\net5.0\SonarSweep.genruntimeconfig.cache
