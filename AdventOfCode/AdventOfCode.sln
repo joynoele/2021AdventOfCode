@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2FA5E8AA-A7A0-44CA-9399-19002FB0C831}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SonarSweep", "Day01\SonarSweep\SonarSweep\SonarSweep.csproj", "{3F46F031-492E-4589-96A0-D671894DAE62}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Library", "AdventOfCode.Library\AdventOfCode.Library.csproj", "{885502C0-360D-404D-8A52-14B4E5331212}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Library.Test", "AdventOfCode.Library.Test\AdventOfCode.Library.Test.csproj", "{95C9916D-07EB-4C57-84A5-D86D325C2982}"
@@ -22,10 +20,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3F46F031-492E-4589-96A0-D671894DAE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F46F031-492E-4589-96A0-D671894DAE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F46F031-492E-4589-96A0-D671894DAE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F46F031-492E-4589-96A0-D671894DAE62}.Release|Any CPU.Build.0 = Release|Any CPU
 		{885502C0-360D-404D-8A52-14B4E5331212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{885502C0-360D-404D-8A52-14B4E5331212}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{885502C0-360D-404D-8A52-14B4E5331212}.Release|Any CPU.ActiveCfg = Release|Any CPU
