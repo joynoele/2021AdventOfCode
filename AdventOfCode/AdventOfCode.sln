@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Input", "Input", "{D292E131
 		Day1.txt = Day1.txt
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Console", "AdventOfCode.Console\AdventOfCode.Console.csproj", "{E649305A-2D3F-483F-99E5-667447896212}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{95C9916D-07EB-4C57-84A5-D86D325C2982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95C9916D-07EB-4C57-84A5-D86D325C2982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95C9916D-07EB-4C57-84A5-D86D325C2982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E649305A-2D3F-483F-99E5-667447896212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E649305A-2D3F-483F-99E5-667447896212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E649305A-2D3F-483F-99E5-667447896212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E649305A-2D3F-483F-99E5-667447896212}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
