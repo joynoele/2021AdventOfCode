@@ -22,6 +22,7 @@ namespace AdventOfCode.Library.Day1.Test
             var part1Result = SonarSweep.Part1();
 
             Assert.IsNotNull(part1Result);
+            Assert.AreEqual(1602, part1Result);
         }
 
         [TestMethod]
@@ -30,10 +31,18 @@ namespace AdventOfCode.Library.Day1.Test
             var testInput = new int[] { 199, 200, 208, 210, 200, 207, 240, 269, 260, 263 };
             var expectedAnswer = 5;
 
-            //var part1Result = SonarSweep.Part2(testInput);
+            var part1Result = SonarSweep.Part2(testInput);
 
-            //Assert.AreEqual(expectedAnswer, part1Result);
-            Assert.Fail();
+            Assert.AreEqual(expectedAnswer, part1Result);
+        }
+
+        [TestMethod]
+        public void Part2_RealData_GetsAndAnswer()
+        {
+            var part1Result = SonarSweep.Part1();
+
+            Assert.IsNotNull(part1Result);
+            Assert.AreEqual(1633, part1Result);
         }
     }
 }

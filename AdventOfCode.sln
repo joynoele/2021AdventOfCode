@@ -11,7 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Library.Test",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Input", "Input", "{D292E131-F683-4D39-A5DB-3055935ABC9B}"
 	ProjectSection(SolutionItems) = preProject
-		Day1.txt = Day1.txt
+		Input\Day1.txt = Input\Day1.txt
+		Day2.txt = Day2.txt
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Console", "AdventOfCode.Console\AdventOfCode.Console.csproj", "{E649305A-2D3F-483F-99E5-667447896212}"

@@ -7,13 +7,31 @@ namespace AdventOfCode
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine(SonarSweep.Title);
-
-            var increasedDepth = SonarSweep.Part2();
-
-            Console.WriteLine($"Went deeper {increasedDepth} time/s");
+            Day2();
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
+        }
+
+        private static void Day1()
+        {
+            Console.WriteLine(SonarSweep.Title);
+
+            var increasedDepth1 = SonarSweep.Part1();
+            Console.WriteLine($"Went deeper {increasedDepth1} time/s");
+
+            var increasedDepth2 = SonarSweep.Part2();
+            Console.WriteLine($"Went deeper {increasedDepth2} time/s");
+        }
+
+        private static void Day2()
+        {
+            Console.WriteLine(SonarSweep.Title);
+
+            var increasedDepth1 = SonarSweep.Part1();
+            Console.WriteLine($"Went deeper {increasedDepth1} time/s");
+
+            var increasedDepth2 = SonarSweep.Part2();
+            Console.WriteLine($"Went deeper {increasedDepth2} time/s");
         }
     }
 }

@@ -8,12 +8,18 @@ namespace AdventOfCode.Library.Day1
     {
         public static string Title = "Day 1: Sonar Sweep";
 
-        public static string defaultInput = @"../Input/Day1.txt"; //@"C:\Projects\Repos\ElsaVezino\2021AdventOfCode\Day01\SonarSweep\SonarSweep\TestInput.txt";
+        public static string defaultInput = @"../../../../Input/Day1.txt";
 
         public static int Part1()
         {
             var defaultReadings = GetInput(defaultInput);
             return Part1(defaultReadings);
+        }
+
+        public static int Part2()
+        {
+            var defaultReadings = GetInput(defaultInput);
+            return Part2(defaultReadings);
         }
 
         /// <summary>
@@ -23,12 +29,14 @@ namespace AdventOfCode.Library.Day1
         /// <returns>Number of times the sonar read a deeper depth than the prior reading.</returns>
         public static int Part1(int[] sonarReadings)
         {
-            var increasedDepth = 0;
+            var depthHasIncreased = 0;
             int? priorDepth = null;
+            var index = 0;
 
             foreach (int depthReading in sonarReadings)
             {
-                string msg;
+                index++;
+                string msg = "idk????";
 
                 if (priorDepth == null)
                 {
@@ -36,18 +44,23 @@ namespace AdventOfCode.Library.Day1
                 }
                 else if (depthReading > priorDepth)
                 {
-                    increasedDepth++;
+                    depthHasIncreased++;
                     msg = "INCREASED";
                 }
-                else
+                else if (depthReading < priorDepth)
                 {
                     msg = "decreased";
                 }
+                else if (depthReading == priorDepth)
+                {
+                    msg = "same!";
+                }
+
                 Console.WriteLine($"{depthReading} ({msg})");
                 priorDepth = depthReading;
             }
 
-            return increasedDepth;
+            return depthHasIncreased;
         }
 
         /// <summary>
@@ -55,20 +68,19 @@ namespace AdventOfCode.Library.Day1
         /// First reading does not count.
         /// </summary>
         /// <returns>Number of times the sonar read a deeper depth than the prior window of reading.</returns>
-        public static int Part2()
+        public static int Part2(int[] sonarReadings)
         {
             var increasedDepth = 0;
             int? priorWindowReading = null;
             int[] depthWindow = new int[3];
             var readingIndex = 0;
-            foreach (string reading in System.IO.File.ReadLines(defaultInput))
+            foreach (int depthReading in sonarReadings)
             {
-                var depthReading = Convert.ToInt32(reading);
-                depthWindow[readingIndex % 3] = depthReading;
+                string msg;
 
+                depthWindow[readingIndex % 3] = depthReading;
                 var windowReading = SumWindowDepths(depthWindow);
 
-                string msg;
                 if (priorWindowReading == null && readingIndex < depthWindow.Length - 1)
                 {
                     msg = "N/A - no previous sum";
