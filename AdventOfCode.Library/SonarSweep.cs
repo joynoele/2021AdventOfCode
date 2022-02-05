@@ -81,7 +81,9 @@ namespace AdventOfCode.Library.Day1
                 depthWindow[readingIndex % 3] = depthReading;
                 var windowReading = SumWindowDepths(depthWindow);
 
-                if (priorWindowReading == null && readingIndex < depthWindow.Length - 1)
+                //if (priorWindowReading == null && readingIndex < depthWindow.Length - 1)
+                //if (priorWindowReading == null && readingIndex + 1 < depthWindow.CalaculateLength())
+                if (priorWindowReading == null || readingIndex <= depthWindow.Length)
                 {
                     msg = "N/A - no previous sum";
                 }
